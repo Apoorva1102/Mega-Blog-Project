@@ -37,7 +37,7 @@ export default function Header(){
     ]
 
     return(
-        <header className="py-3 shadow bg-[#98A6D4]">
+        <header className="py-3 shadow bg-slate-900">
             <Container>
                 <nav className="flex">
                     <div className="mr-4">

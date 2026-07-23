@@ -15,6 +15,7 @@
     "@tinymce/tinymce-react": "^6.3.0",
     "appwrite": "^26.2.0",
     "html-react": "^0.0.20",
+    "html-react-parser": "^6.1.5",
     "parser": "^0.1.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
