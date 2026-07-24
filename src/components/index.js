@@ -4,15 +4,14 @@ import Container from "./container/Container";
 import Logo from "./logo";
 import LogoutBtn from "./header/LogoutBtn";
 import RTE from "./RTE";
-import Signup from "../pages/Signup";
-import Login from '../pages/Login';
-import AddPost from "../pages/AddPost";
+import Login from './Login'
+import Signup from './Signup'
 import PostForm from "./post-form/PostForm";
 import PostCards from "./PostCards";
 import AuthLayout from "./AuthLayout";
 import Button from "./Button";
 import Input from "./Input";
-import Select from './Select.jsx';
+import Select from './Select';
 
 export {
     Header,
@@ -24,7 +23,7 @@ export {
     Signup,
     Login,
     PostForm,
-    AddPost,
+    AuthLayout,
     PostCards,
     Button,
     Input,
