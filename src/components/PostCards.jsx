@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export default function PostCards({$id, title, featuredImage}){
 
-    const preview = appwriteService.getFilePreview(featuredImage);
+    const preview = appwriteService.getFileView(featuredImage);
 
 console.log(preview);
 console.log(typeof preview);
