@@ -13,7 +13,7 @@ console.log(typeof preview);
         <Link to={`/post/${$id}`}>
             <div className="w-full rounded-xl bg-slate-900 text-white p-4">
                 <div className="w-full justify-center mb-4">
-                    <img src={appwriteService.getFilePreview(featuredImage)} alt={title}
+                    <img src={preview} alt={title}
                     className="rounded-xl" />
 
                 </div>
