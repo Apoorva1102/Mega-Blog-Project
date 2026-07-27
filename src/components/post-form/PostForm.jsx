@@ -77,13 +77,13 @@ export default function PostForm({post}) {
                 <Input
                     label="Title :"
                     placeholder="Title"
-                    className="mb-4"
+                    className="mb-4 text-white"
                     {...register("title", { required: true })}
                 />
                 <Input
                     label="Slug :"
                     placeholder="Slug"
-                    className="mb-4"
+                    className="mb-4 text-white"
                     {...register("slug", { required: true })}
                     onInput={(e) => {
                         setValue("slug", slugTransform(e.currentTarget.value), { shouldValidate: true });
@@ -91,7 +91,7 @@ export default function PostForm({post}) {
                 />
                 <RTE label="Content :" name="content" control={control} defaultValue={getValues("content")} />
             </div>
-            <div className="w-1/3 px-2">
+            <div className="w-1/3 px-2 txt-white">
                 <Input
                     label="Featured Image :"
                     type="file"
