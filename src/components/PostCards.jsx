@@ -1,6 +1,10 @@
 import React from "react";
 import appwriteService from  "../appwrite/config";
 import {Link} from 'react-router-dom';
+const preview = appwriteService.getFilePreview(featuredImage);
+
+console.log(preview);
+console.log(typeof preview);
 
 export default function PostCards({$id, title, featuredImage}){
     return(
@@ -14,5 +18,6 @@ export default function PostCards({$id, title, featuredImage}){
                 <h2 className="text-xl font-bold">{title}</h2>
             </div>
         </Link>
+        
     )
 }
