@@ -40,18 +40,18 @@ export default function Header(){
         <header className="py-3 shadow bg-slate-900 text-white">
             <Container>
                 <nav className="flex ">
-                    <div className="mr-4">
+                    <div className="mr-4 flex">
                         <Link to='/'>
                         <Logo />
                         </Link>
                     </div>
-                    <ul className="flex ml-auto">
+                    <ul className="flex ml-auto gap-3">
                         {navItems.map((item) => 
                             item.active ? (
                                 <li key= {item.name}>
                                     <button
                                     onClick={() => navigate(item.slug)}
-                                    className="inline-block px-6 py-2 bg-indigo-300 text-black cursor-pointer rounded-full transition-colors duration-200 hover:bg-indigo-450"
+                                    className="w-32 h-12 rounded-xl bg-indigo-300 hover:bg-indigo-400 transition font-medium flex items-center justify-center text-center text-black"
                                     >{item.name}</button>
                                 </li>
                             ) : null )}

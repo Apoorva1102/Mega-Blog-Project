@@ -4,7 +4,7 @@ export default function Logo({width = '100px'}){
     return(
         <div>
             <img src={bazel} alt="Blog"
-            className="w-10 h-10 text-indigo-500"></img>
+            className="w-12 h-12 text-indigo-500"></img>
         </div>
     )
 }
