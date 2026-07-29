@@ -19,6 +19,10 @@ export default function Home() {
         return (
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
+                    <h2 className="font-fold text-gray-200 p-5">Write. Read. Inspire.</h2>
+
+                    <h2 className="font-bold text-gray-200 p-5">Share your ideas with the world.
+                     Read blogs from developers, designers and creators.</h2>
                     <h1 className="text-3xl text-white font-bold">
                         Login to read posts
                     </h1>

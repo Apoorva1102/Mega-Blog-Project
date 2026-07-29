@@ -1,12 +1,9 @@
-import React from "react";
-import bazel from "../assets/bazel.svg"
-import moon from "../assets/moon.png"
-import book from "../assets/book.png"
+import Pakkafinal from '../assets/Pakkafinal.png'
 export default function Logo({width = '100px'}){
     return(
         <div>
-            <img src={book} alt="Blog"
-            className="w-12 h-12 text-indigo-500"></img>
+            <img src={Pakkafinal} alt="Blog"
+            className="w-14 h-14 text-indigo-500"></img>
         </div>
     )
 }
